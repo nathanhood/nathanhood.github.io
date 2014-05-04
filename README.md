@@ -1,8 +1,6 @@
-# client-template
+# Portfolio for Nathan Hood
 
-Serves as a template for client JavaScript applications.
-
-It uses:
+Technologies used...
 * Jade
 * Less
 * Grunt
