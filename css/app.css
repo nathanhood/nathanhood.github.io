@@ -1,0 +1,113 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,300);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,200,300);
+@import url(http://fonts.googleapis.com/css?family=Amatic+SC:400,700);
+@import url(http://fonts.googleapis.com/css?family=Merriweather);
+body {
+  background-color: #444444;
+  background-image: url(http://www.transparenttextures.com/patterns/bedge-grunge.png);
+}
+.header h1 {
+  font-family: 'Merriweather', sans-serif;
+  font-weight: 200;
+  font-size: 3em;
+  color: #1f1f1f;
+  letter-spacing: 3px;
+  text-decoration: none;
+}
+#header1 {
+  font-family: 'Merriweather', sans-serif;
+  font-weight: 200;
+  font-size: 2em;
+  color: #1f1f1f;
+  letter-spacing: 3px;
+  text-decoration: none;
+  margin-right: auto;
+  margin-left: auto;
+}
+.header a {
+  text-decoration: none;
+}
+.header h2 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1.6em;
+  font-weight: 200;
+  letter-spacing: 3px;
+}
+#header2 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: 200;
+  letter-spacing: 3px;
+  color: #3d8762;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header {
+  padding-top: 10px;
+}
+#window {
+  width: 95%;
+  z-index: 1;
+  display: inline;
+}
+.main-headers {
+  display: inline;
+  z-index: 2;
+  font-size: 2em;
+  position: absolute;
+  top: 10%;
+  min-width: 700px;
+  text-align: right;
+  width: 100%;
+  right: 8%;
+}
+.container {
+  text-align: center;
+  background-size: auto;
+  min-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+  margin-top: 80px;
+}
+.about-container {
+  text-align: center;
+  background-size: auto;
+  min-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+  margin-top: 30px;
+}
+.about-container p {
+  color: white;
+  line-height: 1.5em;
+}
+.container p {
+  color: white;
+  line-height: 1.5em;
+}
+#profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+#contact-info {
+  font-size: 1.5em;
+}
+#bio {
+  padding-bottom: 20px;
+}
+#footer {
+  position: fixed;
+  left: 0px;
+  bottom: 40px;
+  height: 55px;
+  width: 100%;
+  background: rgba(58, 136, 97, 0.9);
+  text-align: center;
+  color: #1f1f1f;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  letter-spacing: 2px;
+  line-height: 3em;
+}
