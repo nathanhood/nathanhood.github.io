@@ -4,6 +4,7 @@
 @import url(http://fonts.googleapis.com/css?family=Amatic+SC:400,700);
 @import url(http://fonts.googleapis.com/css?family=Merriweather);
 
+
 body {
   background-color: #444444;
   background-image: url(http://www.transparenttextures.com/patterns/bedge-grunge.png);
@@ -12,10 +13,21 @@ body {
 .header h1 {
   font-family: 'Merriweather', sans-serif;
   font-weight: 200;
-  font-size: 4em;
+  font-size: 3em;
   color: #1f1f1f;
   letter-spacing: 3px;
   text-decoration: none;
+}
+
+#header1 {
+  font-family: 'Merriweather', sans-serif;
+  font-weight: 200;
+  font-size: 2em;
+  color: #1f1f1f;
+  letter-spacing: 3px;
+  text-decoration: none;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .header a {
@@ -27,57 +39,62 @@ body {
   font-size: 1.6em;
   font-weight: 200;
   letter-spacing: 3px;
+  // display: inline-block;
+}
+
+#header2 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  // font-size: 1.6em;
+  font-weight: 200;
+  letter-spacing: 3px;
+  color: #3d8762;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  padding-top: 10px;
 }
 
 #window {
-  width: 100%;
+  width: 95%;
   z-index: 1;
   display: inline;
 }
 
-.links #about, #contact, #work {
-  z-index: 5;
-  display: inline-block;
-  color: black;
-  // border: 1px solid black;
-  width: 33%;
-  font-family: 'Amatic SC', sans-serif;
-  font-size: 2em;
-}
-
-#contact, #about {
-  margin-top: 100px;
-}
-
-#about:hover, #contact:hover {
-  color: #f7da8e;
-}
-
-#work:hover {
-  color: #3d8762;
-}
-
-// #about {
-//   margin-right: 5%;
+// .links #about, #contact, #work {
+//   z-index: 5;
+//   display: inline-block;
+//   color: black;
+//   // border: 1px solid black;
+//   width: 33%;
+//   font-family: 'Amatic SC', sans-serif;
+//   font-size: 2em;
+//   color: #3d8762;
 // }
 //
-// #contact {
-//   margin-left: 5%;
+// #contact, #about {
+//   margin-top: 100px;
 // }
 //
-// #work {
-//   margin: 0 20%;
+// #about:hover, #contact:hover {
+//   color: #f7da8e;
+// }
+//
+// #work:hover {
+//   color: #1f1f1f;
 // }
 
-.links {
+.main-headers {
   display: inline;
   z-index: 2;
   font-size: 2em;
   position: absolute;
-  top: 33%;
-  width: 95%;
+  top: 10%;
   min-width: 700px;
-  text-align: center;
+  text-align: right;
+  width: 100%;
+  right: 8%;
   // border: 1px solid black;
 }
 
@@ -92,7 +109,61 @@ body {
   // max-height: 718px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 70px;
+  margin-bottom: 80px;
+  margin-top: 80px;
+}
+
+.about-container {
+  text-align: center;
+  background-size: auto;
+  // background-repeat: no-repeat;
+  min-width: 700px;
+  // min-height: 394px;
+  // max-height: 718px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+  margin-top: 30px;
+}
+
+.about-container p {
+  color: white;
+  line-height: 1.5em;
+}
+
+.container p {
+  color: white;
+  line-height: 1.5em;
+}
+
+#profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+#contact-info {
+  font-size: 1.5em;
+}
+
+#bio {
+  padding-bottom: 20px;
+}
+
+
+
+#footer {
+   position: fixed;
+   left:0px;
+   bottom:40px;
+   height:55px;
+   width:100%;
+   background: rgba(58,136,97,0.9);
+   text-align: center;
+   color: #1f1f1f;
+   font-family: 'Yanone Kaffeesatz', sans-serif;
+   letter-spacing: 2px;
+   line-height: 3em;
 }
 
 // .image img {
@@ -127,16 +198,3 @@ body {
 //   // min-width: 300px;
 //   max-width: 574px;
 // }
-
-#footer {
-   left:0px;
-   bottom:0px;
-   height:55px;
-   width:100%;
-   background: rgba(58,136,97,0.9);
-   text-align: center;
-   color: #1f1f1f;
-   font-family: 'Yanone Kaffeesatz', sans-serif;
-   letter-spacing: 2px;
-   line-height: 3em;
-}
